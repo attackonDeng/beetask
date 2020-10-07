@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+    padding: 0;
+    background-color: white;
+    height: 100%;
+}
+
+.main {
+    position: relative;
+    overflow: hidden;
+    height: 460px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(238, 238, 238);
+}
+
+.left,
+.right {
+    position: absolute;
+    top: 0px;
+    width: 20px;
+    height: 100%;
+    background-color: white;
+}
+
+.left {
+    left: 0px;
+}
+
+.right {
+    right: 0px;
+}
+
+.leftbox {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+}
+
+.middlebox {
+    margin-top: 20px;
+    margin-left: 240px;
+    margin-right: 160px;
+    background-color: white;
+}
+
+.rightbox {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 120px;
+    height: 420px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.top {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+}
+.leftbox .name {
+    float: top;
+}
+.rightbox .solo {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 0px auto;
+}
+.rightbox div .solo {
+    margin-top: 10px;
+}
