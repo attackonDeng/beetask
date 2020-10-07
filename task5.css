@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(222, 222, 222);
+}
+
+.header {
+    height: 73px;
+    width: auto;
+    background-color: rgb(51, 51, 51);
+}
+
+.header div {
+    padding-left: 48px;
+    float: left;
+}
+
+.nav li {
+    float: right;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top: 26px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:visited {
+    color: rgb(147, 145, 144);
+}
+
+.nav .right {
+    padding-right: 21px;
+}
+
+.first {
+    background-color: white;
+    margin: 20px 500px 20px 20px;
+}
+
+.second {
+    background-color: white;
+    margin: 20px 500px 20px 20px;
+}
+
+.picture {
+    position: relative;
+    margin: 20px 500px 20px 20px;
+    background-color: white;
+}
+
+.picture .image {
+    display: inline-block;
+    margin: 30px;
+}
+
+.last {
+    margin: 20px 500px 20px 20px;
+    background-color: white;
+}
+
+.last table {
+    margin: 0 25px 25px 25px;
+}
+
+.last table tr th {
+    width: 300px;
+    height: 28px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    text-align: center;
+}
+
+.last td {
+    text-align: center;
+}
+
+.last .total {
+    text-align: center;
+    background-color: rgb(204, 204, 204);
+}
+
+.last .rightbox {
+    width: 100px;
+}
+
+.total {
+    padding-left: 0px;
+}
+
+.total p {
+    width: 150px;
+    display: inline-block;
+    text-align: left;
+    text-indent: 50px;
+}
+
+.total td .bottom {
+    width: 150px;
+    text-indent: -20px;
+}
+
+.class {
+    margin-left: 50px;
+    width: 500px;
+    text-indent: 5em
+}
+
+.class ol {
+    text-indent: 5em;
+}
+
+.class li {
+    text-indent: 5em;
+    list-style-position: inside;
+    /*将数字放在Li里面*/
+}
+
+.aside {
+    position: absolute;
+    right: 0px;
+    top: 70px;
+    width: 460px;
+    margin: 20px;
+    background-color: white;
+    text-align: left;
+}
+
+.roll {
+    text-align: center;
+    margin-left: -30px;
+}
+
+.aside td {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+}
+
+.remind {
+    color: rgb(180, 182, 185);
+}
+
+.submit {
+    width: 200px;
+    text-align: center;
+    height: 30px;
+    border: solid 1px;
+    border-radius: 9px;
+    margin-top: 6px;
+    margin-left: 100px;
+    color: white;
+    background-color: rgb(51, 85, 208);
+}
+
+tr .left {
+    text-align: right;
+}
