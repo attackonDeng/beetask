@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    max-width: 640px;
+    min-width: 314px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: black;
+    background-color: rgb(230, 230, 230);
+}
+
+.title {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(141, 209, 221);
+    line-height: 50px;
+    text-align: center;
+}
+
+.title>span {
+    color: white;
+    font-size: 25px;
+}
+
+.title .return a {
+    left: 20px;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.return:hover {
+    color: white;
+}
+
+.nav {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+
+.nav a {
+    height: 50px;
+    flex: 1;
+    text-align: center;
+    color: black;
+    line-height: 50px;
+    text-align: center;
+}
+
+.nav a::before:hover {
+    position: absolute;
+    height: 10px;
+    width: 50px;
+    background-color: rgb(145, 213, 221);
+    bottom: 0px;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+}
+
+.tip {
+    border-bottom: 2px solid rgb(230, 230, 230);
+    display: flex;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+}
+
+.tip a {
+    line-height: 150px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    flex: 1;
+    height: 100px;
+}
+
+.fenlan {
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 1px;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background-color: white;
+}
+
+.fenlan span {
+    width: 100px;
+    position: relative;
+    height: 270px;
+}
+
+.fenlan span p {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 40px;
+    font-size: 25px;
+}
+
+.fenlan #title {
+    bottom: 0px;
+    font-size: 15px;
+}
+
+.wenan1 {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.box1 {
+    height: 60px;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 40px;
+    color: rgb(102, 102, 102);
+    border-bottom: solid 1px rgb(230, 230, 230);
+}
+
+.wenan1 span {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 120px;
+    height: 250px;
+}
+
+.wenan1 span .img2 {
+    height: 100px;
+}
+
+.wenan1 span div {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(230, 230, 230);
+}
+
+.box2 {
+    padding: 20px 20px 0px 20px;
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+    background-color: white;
+}
+
+.box2 div {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.saber {
+    float: left;
+}
+
+.box2 div p {
+    font-size: 22px;
+    color: black;
+}
+
+.box2 div .time {
+    position: absolute;
+    left: 130px;
+    bottom: 20px;
+    font-size: 10px;
+    color: rgb(230, 230, 230);
+}
+
+.last {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: space-around;
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+
+.last p {
+    flex-direction: row;
+    font-size: 22px;
+    width: 100%;
+    text-indent: 2em;
+}
+
+.last span {
+    width: 120px;
+    height: 100px;
+}
+
+.last .time {
+    text-indent: 10px;
+    font-size: 10px;
+    color: rgb(230, 230, 230);
+}
